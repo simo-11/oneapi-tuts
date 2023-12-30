@@ -73,3 +73,11 @@ Milliseconds      : 948
 vector-add\build-using-usm> cmake -G "NMake Makefiles" .. -DUSM=1
 vector-add\build-using-usm> nmake cpu-gpu (5 seconds)
 ```
+
+### Visual studio integration
+https://www.intel.com/content/www/us/en/docs/oneapi-base-toolkit/get-started-guide-windows/2024-0/run-a-sample-project-using-an-ide.html
+
+Debugging is not explained
+
+### visual studio code integration
+https://www.intel.com/content/www/us/en/docs/oneapi-base-toolkit/get-started-guide-windows/2024-0/run-a-sample-project-with-vscode.html
