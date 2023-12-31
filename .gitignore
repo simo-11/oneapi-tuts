@@ -399,3 +399,4 @@ FodyWeavers.xsd
 **/build-using*
 vector-add-using-visual-studio
 simple-add-using-vscode
+**/*.exe
