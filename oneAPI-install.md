@@ -81,3 +81,27 @@ Debugging is not explained
 
 ### visual studio code integration
 https://www.intel.com/content/www/us/en/docs/oneapi-base-toolkit/get-started-guide-windows/2024-0/run-a-sample-project-with-vscode.html
+
+Debugging is not supported if program is running within windows.
+Debugging is supported if program is running in linux environment.
+
+
+Start code in window which does not have oneAPI settings active
+![image](https://github.com/simo-11/oneapi-tuts/assets/1210784/534df4f8-424a-4c24-bd2c-416ee785c1c5)
+
+```
+oneapi-tuts [main ≡]> code .
+```
+oneAPI environment script was found in the following path: C:\Program Files (x86)\Intel\oneAPI\setvars.bat
+
+Build and execution can be done within vscode
+```
+PS C:\Users\simon\github\oneapi-tuts\simple-add-using-vscode\build> .\simple-add-buffers.exe
+Running on device: Intel(R) UHD Graphics
+```
+or outside vscode if environment is properly setup
+```
+C:\Users\simon\github\oneapi-tuts\simple-add-using-vscode\build [main ≡ +1 ~0 -0 !]> .\simple-add-buffers.exe
+```
+
+
