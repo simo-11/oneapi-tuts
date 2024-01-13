@@ -12,7 +12,10 @@ C:\Program Files(x86)\Intel\oneAPI
 
 Full install, download 2.7 GB, required space 16.6
 
-13.1.2024 Removed unused components, only mkl was left.
+13.1.2024 Removed unused components, only mkl and compiler were left.
+
+Compiler is required for cmake as it requires libiomp5md.lib only from compiler to be available for MKL
+-- Found C:/Program Files (x86)/Intel/oneAPI/compiler/latest/lib/libiomp5md.lib
 
 Custom install shown components
 ![image](https://github.com/simo-11/oneapi-tuts/assets/1210784/f062d97f-8e68-40c7-a9b6-de1646384ea8)
